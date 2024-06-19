@@ -1,0 +1,31 @@
+/* Name: Vimalkumar.B
+  RollNo:Q62
+  program Name: Factorial using recursion */
+
+#include <stdio.h>
+
+int main(){
+
+int s = 7;
+
+printf(“If we calculate the factorial of the given variable s, the output generated would be equal to: %d”, fact(s));
+
+return 0;
+
+}
+
+// The recursive function used in the to find factorial of s
+
+int fact(int t){
+
+if (t == 0)
+
+return 1;
+
+return t * fact(t – 1);
+
+}
+
+The output generated from the code mentioned above would be:
+
+If we calculate the factorial of the given variable s, the output generated would be equal to: 5040
