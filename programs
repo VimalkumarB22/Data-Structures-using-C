@@ -1,0 +1,38 @@
+/* Name:Vimalkumar.B
+   Roll:Q62
+   program Name: Tower of honai*/
+
+#include <stdio.h>
+
+void toh (int, char, char, char); 
+int main () 
+{
+int n;
+
+printf ("Enter the no of disks")
+
+scanf ("%d",&n);
+
+toh (ni'a','b','c');
+
+return 0;
+
+}
+
+void toh (intn, char a, charb, charc)
+
+{
+
+if (n>=1)
+
+{
+
+toh = (n-1, a,c,b);
+
+printf ("\n more disk I'd from rod % ( to rod%c", n, a,b);
+
+toh (n-1, c,b,a);
+
+}
+
+}
