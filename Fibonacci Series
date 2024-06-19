@@ -1,0 +1,21 @@
+/* Name:Vimalkumar.B
+   RollNo:Q62
+   programName:Fibonacci Series */
+
+#include <stdio.h>
+int main() {
+int i, n;
+// initialize first and second terms
+int f1 = 0, f2 = 1;
+// initialize the next term (3rd term)
+int nextTerm = f1 + f2;
+printf("Enter the number of terms: ");
+scanf("%d", &n);
+printf("Fibonacci Series: %d %d ", f1, f2);
+for (i = 3; i<= n; ++i) {
+printf("%d ", nextTerm);
+f1 = f2;
+f2 = nextTerm;
+nextTerm = f1 + f2;
+}
+return 0;}
